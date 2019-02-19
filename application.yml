@@ -6,6 +6,10 @@ eureka:
     service-url:
       defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:password}@registry:8761/eureka/
 
+configs:
+  remote:
+    msg: this is remote msg
+
 hystrix:
   command:
     default:
